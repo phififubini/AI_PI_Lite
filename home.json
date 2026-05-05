@@ -1,0 +1,82 @@
+{
+    "pages": [
+        {
+            "lines": [
+                {
+                    "color": "WHITE",
+                    "size": 1,
+                    "text": "I love you"
+                },
+                {
+                    "color": "WHITE",
+                    "size": 1,
+                    "text": "Constellation"
+                },
+                {
+                    "color": "WHITE",
+                    "size": 1,
+                    "text": "Soon"
+                },
+                {
+                    "color": "WHITE",
+                    "size": 1,
+                    "text": "Soon"
+                }
+            ],
+            "cursor": {
+                "locations": 4,
+                "vertical": true,
+                "character": ">",
+                "color": "BLUE",
+                "size": 1
+            },
+            "commands": {
+                "LC.*": {
+                    "method": "inc_cursor"
+                    },
+                "RC1": {
+                    "method": "select_page",
+                    "args": "1"
+                    }
+            },
+            "background": "BLACK"
+        },
+        {
+            "lines": [
+                {
+                    "color": "WHITE",
+                    "size": 2,
+                    "text": "Gemini"
+                }
+            ],
+            "pixels": [
+                {
+                    "color": "BLUE",
+                    "x": 25,
+                    "y": 50
+                },
+                                {
+                    "color": "BLUE",
+                    "x": 50,
+                    "y": 75
+                },
+                                {
+                    "color": "BLUE",
+                    "x": 18,
+                    "y": 96
+                },
+                                {
+                    "color": "BLUE",
+                    "x": 22,
+                    "y": 64
+                }
+            ],
+            "commands": {
+                "LH.*": {
+                    "method": "up_page"
+                    }
+            },
+            "background": "BLACK"
+        }
+    ]
+}
